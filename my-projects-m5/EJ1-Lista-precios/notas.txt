@@ -1,0 +1,26 @@
+EJERCICIO FINAL MATERIA 5 PARTE 1
+
+    Codificar un programa en C que permita a un usuario ver e ingresar productos a una lista de precios. Cada producto de la lista de precios deberá tener los siguientes datos:
+
+    Código: un string para ingresar un código único de producto
+    Nombre: un string con el nombre del producto
+    Precio: un float que representa el precio del producto.
+            Cuando el programa se ejecuta deberá mostrar por pantalla el siguiente menú principal de opciones:
+
+            1) Ver lista de precios
+            2) Agregar un producto a la lista de precios
+            0) Salir
+
+    El usuario podrá elegir cualquiera de las opciones del menú principal, lo cual ejecutará la acción esperada. Una vez que la operación se completa, el menú de opciones volverá a mostrarse, dándole la posibilidad al usuario de elegir nuevamente alguna opción de dicho menú. Si la opción elegida es “0) Salir”, la ejecución del programa finalizará.
+    La opción 1 del menú principal, mostrará por pantalla todos los productos que existen en la agenda, un producto por renglón.
+
+    La opción 2 del menú principal, le permitirá al usuario ingresar un nuevo producto. Cuando ésta opción es elegida, el programa le solicitará al usuario el ingreso de cada uno de los datos indicados en el primer párrafo del ejercicio: código, nombre y precio.
+    Consideraciones a tener en cuenta:
+
+    * Utilizar funciones para modularizar el programa y separar cada funcionalidad o acción en partes más pequeñas. Por ejemplo, se podría definir una función para imprimir el menú principal, otra función para mostrar los productos y otra función para agregar un nuevo producto. Pueden definir más funciones y modularizar aún más el código si así lo desean.
+    
+    * Implementar los productos utilizando un tipo de datos propio, utilizando las estructuras en C (struct) como vimos en los ejemplos y teoría.
+
+    * Implementar la lista de productos de manera simple, para tener una versión funcional (en los próximos ejercicios vamos a ir “mejorando” este programa):
+    * Implementar la lista de productos con un array de dimensión predefinida con una constante (por ejemplo, 10).
+    No es necesario “guardar” los productos en archivos para esta versión
